@@ -4,6 +4,7 @@
     border-right: 3px solid;
     width: 0px;
     margin-left: 50px;
+    margin-top: 50px;
     animation-name: typewriter, blink;
     animation-duration: 4s, 0.5s;
     animation-timing-function: steps(1000), steps(10);
