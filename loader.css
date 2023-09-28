@@ -1,0 +1,45 @@
+.loader {
+    position: relative;
+    overflow: hidden;
+    border-right: 3px solid;
+    width: 0px;
+    margin-left: 50px;
+    animation-name: typewriter, blink;
+    animation-duration: 4s, 0.5s;
+    animation-timing-function: steps(1000), steps(10);
+    animation-iteration-count: 1, infinite;
+    animation-direction: alternate, alternate;
+    animation-fill-mode: forwards, forwards;
+   
+    
+}
+
+.loader-text {
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(to right, #159957, #155799);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes typewriter {
+    0% {
+        width: 10px;
+    }
+
+    100% {
+        width: 940px;
+    }
+}
+
+@keyframes blink {
+    0% {
+        border-right-color: rgba(255, 255, 255, .75);
+        ;
+    }
+
+    100% {
+        border-right-color: transparent;
+    }
+}
+

@@ -1,0 +1,52 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fcfcfc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 15px 25px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(24, 24, 24);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* Content area style (adjust as needed) */
+.content {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* Hamburger menu style */
+.hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.hamburger-icon {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(80, 14, 14);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .hamburger-icon {
+    background-color: #333;
+}
