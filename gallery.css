@@ -1,0 +1,41 @@
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.gallery-item {
+    width: 300px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.image-caption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.gallery-item:hover {
+    transform: scale(1.45);
+    transition: transform 0.3s ease-in-out;
+}

@@ -23,4 +23,8 @@ body {
     
 }
 
-
+.wrapper {
+    min-height: calc(99vh);
+    
+    position: relative;
+}
