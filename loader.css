@@ -5,18 +5,21 @@
     width: 0px;
     margin-left: 50px;
     margin-top: 50px;
+    margin-right: 200px;
     animation-name: typewriter, blink;
     animation-duration: 4s, 0.5s;
     animation-timing-function: steps(1000), steps(10);
     animation-iteration-count: 1, infinite;
     animation-direction: alternate, alternate;
     animation-fill-mode: forwards, forwards;
+    
    
     
 }
 
 .loader-text {
-    font-size: 30px;
+    
+    font-size: 20px;
     font-weight: 700;
     background: linear-gradient(to right, #159957, #155799);
     -webkit-background-clip: text;
